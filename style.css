@@ -1,0 +1,60 @@
+div {
+    margin: 20px;
+    border: 2px solid red;
+    padding: 40px;
+    background-color: gray;
+    color: white;
+}
+
+p{
+    font-size: larger;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.vertical {
+    height: 250 px;
+    width: 2px;
+}
+
+.relative {
+    padding: 20px;
+    border: 3px  solid yellow;
+    background-color: aqua;
+    position: relative;
+    color: blue;
+}
+
+.alterado{
+    top: 15px;
+    left: 30px;
+}
+
+.absolute{
+    height: 10px;
+    width: 120px;
+    border: 1px solid blue;
+    background-color: blueviolet;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.fixed{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.sticky{
+    background-color: rgb(235, 137, 10);
+    color: rgb(143, 6, 6);
+    text-align: center;
+    position: sticky;
+    top: 100px;
+    left: 0px;
+}
